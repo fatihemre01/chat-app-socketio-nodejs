@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input:focus,
+button:focus {
+  outline: 0;
+}
+
+h2 {
+  font-size: 23px;
+  padding: 10px 10px;
+  color: #fff;
+  background-color: #00b7ff;
+  text-align: center;
+}
+
+#chat-wrap {
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#chat-window {
+  height: 400px;
+  overflow-y: auto;
+}
+
+#output p {
+  font-size: 15px;
+  padding: 12px;
+}
+
+#feedback p {
+  font-size: 13px;
+  padding: 12px;
+}
+
+#output strong {
+  color: #00b7ff;
+}
+
+input {
+  font-family: "Poppins";
+  padding: 10px 20px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  display: block;
+  width: 100%;
+}
+
+button {
+  background-color: #00b7ff;
+  color: white;
+  border: 0;
+  border-radius: 0 0 5px 5px;
+  width: 100%;
+  padding: 12px 0px;
+  font-size: 17px;
+}
